@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Groceries</title>
+</head>
+
+<body>
+	<h1>Make a Grocery List</h1>
+	<p>Please tell me what you need from the market: </p>
+	<form id="visible">
+		<label>
+			<input type="checkbox" name="item" value="eggs">
+			Eggs
+		</label><br>
+		<label>
+			<input type="checkbox" name="item" value="milk">
+			Milk
+		</label><br>
+		<label>
+			<input type="checkbox" name="item" value="bread">
+			Bread
+		</label><br>
+		<label>
+			<input type="checkbox" name="item" value="cereal">
+			Cereal
+		</label><br>
+		<label>
+			<input type="checkbox" name="item" value="chocolate">
+			Chocolate
+		</label><br>
+		<button type="submit">Submit</button>
+	</form>
+	<div class="hidden">
+		<h2>Here is your shopping list: </h2>
+		<p id="output"></p>
+	</div>
+	
+	<!-- //results id hidden -->
+</body>
+
+</html>
